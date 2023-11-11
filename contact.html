@@ -13,9 +13,10 @@
 <body>
    Sumiya Rahman Tisha
    2021915
-    <header>
+   <header>
+    <div class="container">
         <h1>Your Coffee Haven</h1>
-    
+        
         <nav>
             <ul>
                 <li><a href="index.html">Home</a></li>
@@ -23,16 +24,48 @@
                 <li><a href="contact.html">Contact Us</a></li>
             </ul>
         </nav>
-    </header>
-
-    <div>
-        <h2>Contact Us</h2>
-        
     </div>
+</header>
 
-    <footer>
-        <p>&copy; 2023 Your Coffee Haven</p>
-    </footer>
+
+<section class="contact-section">
+    <div class="container">
+        <h2>Contact Us</h2>
+       
+        <form action="/submit_form" method="post">
+            
+            <label for="name">Name:</label>
+            <input type="text" id="name" name="name" required>
+    
+            
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" required>
+    
+            <label for="message">Message:</label>
+            <textarea id="message" name="message" rows="4" required></textarea>
+    
+            
+            <button type="submit">Submit</button>
+        </form>
+        
+        <div class="contact-info">
+            <p><strong>Visit Us:</strong>Bashundhara R/A, D block, Road no 1, Dhaka</p>
+            <p><strong>Call Us:</strong> 880 1298436113</p>
+            <p><strong>Email Us:</strong> info@yourcoffeehaven.com</p>
+        </div>
+       
+        <div class="map">
+            
+        </div>
+    </div>
+</section>
+
+
+<footer>
+    <div class="container">
+        <p>&copy; 2023 Your Coffee Haven </p>
+    </div>
+</footer>
 </body>
 
 </html>
