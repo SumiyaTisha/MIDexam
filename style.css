@@ -9,6 +9,16 @@ body {
     width: 80%;
     margin: 0 auto;
 }
+header {
+    background-color: #886347;
+    padding: 10px;
+    text-align: center;
+    color: white;
+    text-align: center;
+    text-decoration: none;
+    color: white;
+    text-align: center;
+}
 
 nav {
     
@@ -17,7 +27,7 @@ nav {
     text-align: center;
     color: white;
     text-align: center;
-    
+
     
   
 
