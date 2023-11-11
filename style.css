@@ -58,9 +58,8 @@ nav a {
     color: white;
     text-decoration: none;
     text-align: center;
-    text-decoration: none;
-    color: white;
-    text-align: center;
+    text-size-adjust: 10px;
+    
 
 }
 
@@ -68,7 +67,7 @@ h1 {
     margin-top: 20px;
     margin-bottom: 20px;
     text-align: center;
-    color: rgba(71, 28, 5, 0.477)
+    color: rgb(247, 213, 194)
   
 
 }
